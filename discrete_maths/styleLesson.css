@@ -125,7 +125,7 @@ li {
 }
 
 .wh {
-    background-color: rgba(255, 255, 255, 0.411);
+    background-color: rgba(255, 255, 255, 0.13);
     padding: 15px;
     border-radius: 5px;
     margin: 10px 0;
@@ -154,6 +154,12 @@ body {
 .example {
     display: flex;
     flex-wrap: wrap;
+}
+
+.example>div {
+    border: 2px solid grey;
+    margin: 5px;
+    text-align: center;
 }
 
 @media only screen and (max-width: 750px) {
