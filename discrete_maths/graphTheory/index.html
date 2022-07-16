@@ -177,20 +177,25 @@
             </div>
             <div class="in">
                 <p><b>Q2 &rarr;</b> Which of the following is pseudo graph?</p>
-                <div>
+                <div class="in">
                     <p><b>A</b></p>
                     <img src="../images/gtimg15.svg" alt="">
                 </div>
-                <div>
+                <div class="in">
                     <p><b>B</b></p>
                     <img src="../images/gtimg8.svg" alt="">
+                </div>
+                <div class="wh">
+                    <p><b>hint:</b> the graph which have multiedge and self loop</p>
                 </div>
             </div>
             <div class="in">
                 <p><b>Q3 &rarr;</b> Number of isolated vertex in follwoing graph?</p>
-                <div>
-                    <p><b>A</b></p>
-                    <img src="../images/gtimg16.svg" alt="">
+                <div class="in">
+                    <button class="accordion">sol</button>
+                    <div class="panel">
+                        <img src="../images/gtimg16.svg" alt="">
+                    </div>
                 </div>
             </div>
             <div class="in">
@@ -205,9 +210,11 @@
                     <br>f(v5) = Aligarh.
                     <br>Then to label after drawing the diagrams of the graph
                 </p>
-                <div>
-                    <p><b>A-</b></p>
-                    <img src="../images/gtimg17.svg" alt="">
+                <div class="in">
+                    <button class="accordion">sol</button>
+                    <div class="panel">
+                        <img src="../images/gtimg17.svg" alt="">
+                    </div>
                 </div>
             </div>
         </div>
@@ -329,17 +336,108 @@
                     </div>
                 </div>
             </div>
+            <div class="in">
+                <h3>Complement of Graph</h3>
+                <p>The complement of a graph G is defined as a simple graph with the same vertex set as G and where two vertices u and v are adjacent only when they are not adjacent in G.</p>
+                <div class="wh">
+                    <h3>Example:</h3>
+                    <div class="example">
+                        <div><img src="../images/gtimg28.svg" alt=""></div>
+                        <div><img src="../images/gtimg29.svg" alt=""></div>
+                    </div>
+                </div>
+            </div>
+            <div class="in">
+                <h3>Planar Graph</h3>
+                <p>A graph which can be drawn in the plane so that its edge do not cross is called planar.</p>
+                <div class="wh">
+                    <h3>Example:</h3>
+                    <div class="example">
+                        <div><img src="../images/gtimg31.svg" alt=""></div>
+                        <div><img src="../images/gtimg30.svg" alt=""></div>
+                    </div>
+                </div>
+            </div>
+            <div class="wh">
+                <p><b>Q</b>&rarr; Draw a planar representation of following graph.</p>
+                <img src="../images/gtimg32.svg" alt="">
+                <div class="in">
+                    <button class="accordion">sol.</button>
+                    <div class="panel">
+                        <img src="../images/gtimg33.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="wh">
+                <p><b>Q</b>&rarr; Draw K<sub>3,4</sub> bipartte graph.</p>
+                <div class="in">
+                    <button class="accordion">Sol.</button>
+                    <div class="panel">
+                        <img src="../images/gtimg34.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="wh">
+                <div class="in">
+                    <p><b>Q</b>&rarr; Which of the following is regular graph?</p>
+                    <div class="example">
+                        <div>
+                            <p>a</p><img src="../images/gtimg35.svg" alt="">
+                        </div>
+                        <div>
+                            <p>b</p><img src="../images/gtimg28.svg" alt="">
+                        </div>
+                        <div>
+                            <p>c</p><img src="../images/gtimg19.svg" alt="">
+                        </div>
+                        <div>
+                            <p>d</p><img src="../images/gtimg21.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <p>Each vertex have same degree</p>
+            </div>
+            <div class="wh">
+                <p><b>Q&rarr;</b> Which of the following graphs are bipartte?</p>
+                <div class="in">
+                    <div class="example">
+                        <div>
+                            <p>Graph G1</p>
+                            <img src="../images/gtimg36.svg" alt="">
+                        </div>
+                        <div>
+                            <p>Graph G2</p>
+                            <img src="../images/gtimg18.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="in">
+                <h3>Handshaking Theorem</h3>
+                <p>
+                    The sum of the degree of the vertices of a graph G is equal to twice the number of edges in G.
+                </p>
+                <div class="in">
+                    <p><b>Proof:</b> Consider a graph G with 'e' edges and 'n' vertices v1,v2,v3,..,vn. Since each edge contributes 2 degree in a graph the sum of the degree of all vertices will be a
+                        <br> = 2e
+                        <br>= 2 * Number of edges
+                    </p>
+                </div>
+                <div class="in">
+                    <h3>Verification</h3>
+                    <p>In the given graph</p>
+                    <img src="../images/gtimg37.svg" alt="">
+                    <p>
+                        deg(v1) = 1, deg(v2) = 3, deg(v3) = 2, deg(v4) = 2, deg(v5) = 2
+                        <br>Sum of degree of all vertices 1 + 3 + 2 + 2 + 2 = 10
+                        <br>Also number of edges are 5
+                        <br>Hence the theorem is verified.
+                    </p>
+                </div>
+            </div>
         </div>
     </div>
-    <script>
-        function openNav() {
-            document.getElementById("mySidepanel").style.width = "250px";
-        }
-
-        function closeNav() {
-            document.getElementById("mySidepanel").style.width = "0";
-        }
-    </script>
+    <script src="../main.js"></script>
 
 </body>
 
