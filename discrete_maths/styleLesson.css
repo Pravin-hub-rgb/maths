@@ -96,50 +96,64 @@ body {
 
 /* ******* Local Stuff ******* */
 
-body {
-    margin: 0;
-    padding: 0;
-    /* width: 100vw; */
-}
-
 p,
 li {
     font-size: 1.1rem;
 }
 
 .content-box {
-    background-color: rgba(0, 180, 216, 0.3);
+    background-color: rgb(26 164 210);
     border-radius: 20px;
     padding: 10px;
-    margin: 50px 5px 20px;
+    margin: 55px 10px 20px 10px;
 }
 
 .inside-content {
-    background-color: rgba(255, 255, 255, 0.377);
+    background-color: rgba(255, 255, 255, 0.438);
     padding: 10px;
     border-radius: 10px;
     margin-bottom: 10px;
+    box-shadow: 0 0 20px rgb(2 14 82);
 }
 
 .in {
-    background-color: rgba(0, 0, 0, 0.158);
+    background-color: rgba(0, 0, 0, 0.151);
     padding: 10px;
     border-radius: 5px;
-    margin-bottom: 5px;
+    margin: 15px 0;
+    box-shadow: 0 0 15px rgb(0, 0, 0);
 }
 
 .wh {
-    background-color: rgba(255, 255, 255, 0.363);
-    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.411);
+    padding: 15px;
     border-radius: 5px;
-    margin-bottom: 5px;
+    margin: 10px 0;
+    box-shadow: 0 0 15px black;
+}
+
+body {
+    background: #000428;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #004e92, #000428);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #004e92, #000428);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .content-box img {
-    /* width: 35%; */
-    display: block;
-    border: 1px solid grey;
-    margin: 10px;
+    display: inline-block;
+    margin: 5px;
+    ;
+}
+
+.example {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 @media only screen and (max-width: 750px) {
