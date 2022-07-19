@@ -203,3 +203,16 @@ body {
     display: none;
     overflow: hidden;
 }
+
+
+/* ******** partition ********* */
+
+.part2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.part2>div {
+    width: 47%;
+    border: 1px solid grey;
+}
