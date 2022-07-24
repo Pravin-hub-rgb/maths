@@ -216,3 +216,19 @@ body {
     width: 47%;
     border: 1px solid grey;
 }
+
+
+/*  *************** img notes *********** */
+
+iframe {
+    width: 50%;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 750px) {
+    iframe {
+        width: 98%;
+        height: 100vh;
+    }
+}
