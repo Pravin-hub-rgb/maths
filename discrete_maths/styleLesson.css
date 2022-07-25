@@ -226,9 +226,20 @@ iframe {
     margin: 0 auto;
 }
 
+.imgNotes {
+    text-align: center;
+}
+
+.imgNotes img {
+    width: 55%;
+}
+
 @media only screen and (max-width: 750px) {
     iframe {
         width: 98%;
         height: 100vh;
+    }
+    .imgNotes img {
+        width: 99%;
     }
 }
